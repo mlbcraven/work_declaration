@@ -1,0 +1,44 @@
+
+body{
+    margin: 0;
+    text-align: center;
+    background:linear-gradient(246.26deg,rgba(66, 62, 62, 0.933) 0%,rgb(65, 108, 226)100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: beige;
+    font-size: large;
+    
+
+
+}
+.columns{
+   display:flexbox;
+   margin: 100px; 
+   text-align: center;
+}
+img{
+    size: 10%;
+}
+button{
+    display:flexbox;
+    text-align: center;
+    background-color: black;
+    color: beige;
+    font-size: 26px;
+    margin: 100px;
+
+}
+button:hover{
+    background-color: purple;
+}
+
+.container{
+    display: flexbox;
+    margin: 20px;
+    text-align: center;
+}
+fieldset{
+    text-align: center;
+    color: rgb(14, 20, 7);
+    
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Καταχωρηση Εργασιας</title>
+        <link href="../css/index.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="columns">
+            <section class="sections" >
+                <h1><em>Επιλογη Εργαζομενου</em></h1>
+                <label for="workers">Επιλεξτε το Ονομα σας : </label>
+                <select name="workers" id="workers">
+                    <option value="Ελευθεριαδης Ιωαννης "> Ελευθεριαδης Ιωαννης </option>
+                    <option value="Εργαζομενος 2 ">Εργαζομενος 2</option>
+                    <option value="Εργαζομενος 3 ">Εργαζομενος 3</option>
+                    <option value="Εργαζομενος 4 ">Εργαζομενος 4</option>
+                    
+
+                </select>
+            </section>  
+            <section class="sections" >
+                <h1><em>Επιλογη Εργασιας</em></h1>
+                <label for="work"> Επιλεξτε την Εργασια : </label>
+                <select name="work" id="work">
+                    <optgroup label="declare work">
+                     <option value="Picking">Picking</option>
+                     <option value="Receiving">Receiving</option>
+                     <option value="storekeeper">Storekeeper</option>
+                    </optgroup> 
+                    <optgroup label="Add the item number upon finishing the work">
+                     <option value="Labeling">Labeling</option>
+                     <option value="liquid production">liquid production</option>
+                     <option value="G/F production">G/F production</option>
+                    </optgroup>
+                </select>
+
+            </section> 
+            
+        </div>
+        <div class="container">
+            <fieldset>
+                <legend> <b>Επιλογη Καταστασης Εργασιας </b> </legend>
+                 <div>
+                    <input type="checkbox" id="Εναρξη" name="Εναρξη" value="Εναρξη">
+                    <label for="Εναρξη">Εναρξη</label>
+                 </div>
+                 <div>
+                     <input type="checkbox" id="Ληξη" name="Ληξη" value="Ληξη">
+                     <label for="Ληξη">Ληξη </label>
+                 </div>
+            </fieldset>
+            <div id="divBtn">
+                <button type="button" id="btnEntry">Καταχωρηση </button>
+                <button type="button" id="changeHtml"><a href="results.html" >Check current state</a> </button>
+            </div>    
+        </div>
+    </body>
+</html>
