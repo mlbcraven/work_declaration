@@ -3,4 +3,14 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    color: wheat;
+    text-align: center;
+}
+.resultCol{
+    display: flexbox;
+}
+button{
+    background-color: rgb(218, 207, 63);
+    color: white;
+    
 }

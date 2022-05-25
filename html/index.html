@@ -21,7 +21,7 @@
             <section class="sections" >
                 <h1><em>Επιλογη Εργασιας</em></h1>
                 <label for="work"> Επιλεξτε την Εργασια : </label>
-                <select name="work" id="work">
+                <select name="work" id="works">
                     <optgroup label="declare work">
                      <option value="Picking">Picking</option>
                      <option value="Receiving">Receiving</option>
@@ -50,7 +50,7 @@
                  </div>
             </fieldset>
             <div id="divBtn">
-                <button type="button" id="btnEntry">Καταχωρηση </button>
+                <button type="button" id="btnEntry" onclick="createInstance()">Καταχωρηση </button>
                 <button type="button" id="changeHtml"><a href="results.html" >Check current state</a> </button>
             </div>    
         </div>
