@@ -1,5 +1,17 @@
 
 body{
+   
+    margin: 0;
+    padding: 0;
+    background: #1C1C1C;
+
+
+}
+head{
+    background-color: beige;
+    color: #1C1C1C;
+}
+#Bcontainer{
     margin: 0;
     text-align: center;
     background:linear-gradient(246.26deg,rgba(66, 62, 62, 0.933) 0%,rgb(65, 108, 226)100%);
@@ -7,9 +19,6 @@ body{
     background-repeat: no-repeat;
     color: beige;
     font-size: large;
-    
-
-
 }
 .columns{
    display:flexbox;
@@ -31,7 +40,10 @@ button{
 button:hover{
     background-color: purple;
 }
-
+select{
+    background-color:rgb(165, 165, 24);
+    color: #331515;
+}
 .container{
     display: flexbox;
     margin: 20px;
