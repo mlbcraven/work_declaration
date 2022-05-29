@@ -1,9 +1,9 @@
 
 body{
    
-    margin: 0;
+    margin: 200px 300px;
     padding: 0;
-    background: #1C1C1C;
+    background: #1F2937;
 
 
 }
@@ -30,19 +30,26 @@ img{
 }
 button{
     display:flexbox;
+    flex-direction: row;
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-style: normal;
     text-align: center;
-    background-color: black;
+    background-color: #1F2937;
     color: beige;
     font-size: 26px;
     margin: 100px;
+    padding: 9px 17px 9px 15px;
+    gap: 12px;
 
 }
 button:hover{
-    background-color: purple;
+    background-color: #484f58;
 }
 select{
-    background-color:rgb(165, 165, 24);
+    background-color:rgb(92, 92, 46);
     color: #331515;
+    font-size: larger;
 }
 .container{
     display: flexbox;

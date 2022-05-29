@@ -1,13 +1,22 @@
+
+
 body{
+    margin: 0;
+    padding: 0;
+    background: #1F2937;
     background-image: url(../img/laptop.jpg);
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
-    color: wheat;
-    text-align: center;
+    
 }
 .resultCol{
     display: flexbox;
+    
+   
+    background-position: center;
+    
+    color: wheat;
+    text-align: center;
 }
 button{
     background-color: rgb(218, 207, 63);
